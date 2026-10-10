@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this implementation in research, cite the paper."
+title: "AgentsBench: A Multi-Agent LLM Simulation Framework for Legal Judgment Prediction"
+type: article
+authors:
+  - family-names: Jiang
+    given-names: Cong
+  - family-names: Yang
+    given-names: Xiaolei
+doi: 10.3390/systems13080641
+date-released: 2025-08-01
+url: https://www.mdpi.com/2079-8954/13/8/641
+
