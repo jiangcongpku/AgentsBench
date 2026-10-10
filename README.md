@@ -27,8 +27,6 @@ For an OpenAI-compatible chat-completions endpoint, set `OPENAI_API_KEY`, option
 agentsbench --provider api --cases examples/cases.jsonl --rounds 2
 ```
 
-For MiniMax's China-region OpenAI-compatible endpoint, set `MINIMAX_API_KEY` and run `agentsbench --provider minimax --cases examples/cases.jsonl`. `MINIMAX_MODEL` optionally overrides the default `MiniMax-M3`. The MiniMax provider requests a bounded JSON response with thinking disabled.
-
 Do not put credentials in a configuration file committed to Git. The `.env.example` file contains placeholders only; this program reads environment variables directly and does not load `.env` automatically. API calls may send case facts to the configured provider, so use only data you are authorized to transmit. The program makes one request per opinion and does not provide retry or budget controls.
 
 ## Input and output
